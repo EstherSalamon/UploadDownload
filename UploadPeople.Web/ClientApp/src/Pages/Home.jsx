@@ -21,7 +21,7 @@ const Home = () => {
 
     const onDeleteClick = async () => {
         await axios.post('api/people/delete');
-        console.log("We here at the Upload People Foundation do not commend nor condem the actions taken. The usage of this button is dependant on the moral stances of the user, though ethically we cannot ban its universal usage.")
+        console.log("We here at the Upload People Foundation do not commend nor condemn the actions taken. The usage of this button is dependant on the moral stances of the user, though ethically we cannot ban its universal usage.")
         loadPeople();
         navigate('/');
     }
